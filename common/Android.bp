@@ -14,6 +14,9 @@ android_app_import {
     ],
     certificate: "platform",
     privileged: true,
+    dex_preopt: {
+                enabled: true,
+    },
     system_ext_specific: true,
     required: [
         "privapp-permissions-miuicamera.xml",
